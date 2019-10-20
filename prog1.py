@@ -12,6 +12,11 @@ def draw():
     rect_point = ((80, 20), (8, 250))
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
+    rect_color = pygame.Color('White')
+    rect_width = 0
+    rect_point = ((88, 30), (150, 40))
+    pygame.draw.rect(screen, rect_color, rect_point, rect_width)
+
     rect_color = pygame.Color('Blue')
     rect_width = 0
     rect_point = ((88, 71), (150, 40))
